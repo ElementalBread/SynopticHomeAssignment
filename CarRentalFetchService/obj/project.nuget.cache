@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "cM/kgrVRn20Bk86kMOFNirvw7dmNY7g1g0vOvFqt90m4gdSsl6b+QQmXos4yLcHi2itvfmNJ5EZ8pGXbCXZGgw==",
+  "dgSpecHash": "aY3hCmgJVubDAGTZ8O7bpxk0ZquyZ2mMv2qDTI8jefNy1kN21HtfOR/hMJvX6bcFjN/CTpiEv52VP9/YQCGE9Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\mikel\\Desktop\\School\\Distributed\\SynopticHomeAssignment\\CarRentalFetchService\\CarRentalFetchService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mikel\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\mikel\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\mikel\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\mikel\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\mikel\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "C:\\Users\\mikel\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",

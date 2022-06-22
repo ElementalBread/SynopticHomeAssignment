@@ -27,3 +27,4 @@ C:\Users\mikel\Desktop\School\Distributed\SynopticHomeAssignment\FlightsFetchSer
 C:\Users\mikel\Desktop\School\Distributed\SynopticHomeAssignment\FlightsFetchService\obj\Debug\net6.0\ref\FlightsFetchService.dll
 C:\Users\mikel\Desktop\School\Distributed\SynopticHomeAssignment\FlightsFetchService\bin\Debug\net6.0\CommonClasses.dll
 C:\Users\mikel\Desktop\School\Distributed\SynopticHomeAssignment\FlightsFetchService\bin\Debug\net6.0\CommonClasses.pdb
+C:\Users\mikel\Desktop\School\Distributed\SynopticHomeAssignment\FlightsFetchService\bin\Debug\net6.0\Newtonsoft.Json.dll

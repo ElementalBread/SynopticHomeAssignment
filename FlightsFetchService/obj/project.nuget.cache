@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "FtcOaK3dmDzapOmfSDAhfhgn+rkFwYesTleGZWAmGMAL1hZHQSBHsjSAUe3rgJ1DlqvMMUy8TIM5Ox2q23IiQg==",
+  "dgSpecHash": "332WmHzOpXOONgXIN06h2upA9ztiS8ZDTMWCR3BWSStp0tLq0wy/zcBdzV974m8/jZm3reQ9f1E5/Ekt35Kuow==",
   "success": true,
   "projectFilePath": "C:\\Users\\mikel\\Desktop\\School\\Distributed\\SynopticHomeAssignment\\FlightsFetchService\\FlightsFetchService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mikel\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\mikel\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\mikel\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\mikel\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\mikel\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "C:\\Users\\mikel\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",

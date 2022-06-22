@@ -1,0 +1,12 @@
+C:\Users\mikel\Desktop\School\Distributed\SynopticHomeAssignment\CommonClasses\bin\Debug\net6.0\CommonClasses.deps.json
+C:\Users\mikel\Desktop\School\Distributed\SynopticHomeAssignment\CommonClasses\bin\Debug\net6.0\CommonClasses.dll
+C:\Users\mikel\Desktop\School\Distributed\SynopticHomeAssignment\CommonClasses\bin\Debug\net6.0\CommonClasses.pdb
+C:\Users\mikel\Desktop\School\Distributed\SynopticHomeAssignment\CommonClasses\obj\Debug\net6.0\CommonClasses.csproj.AssemblyReference.cache
+C:\Users\mikel\Desktop\School\Distributed\SynopticHomeAssignment\CommonClasses\obj\Debug\net6.0\CommonClasses.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mikel\Desktop\School\Distributed\SynopticHomeAssignment\CommonClasses\obj\Debug\net6.0\CommonClasses.AssemblyInfoInputs.cache
+C:\Users\mikel\Desktop\School\Distributed\SynopticHomeAssignment\CommonClasses\obj\Debug\net6.0\CommonClasses.AssemblyInfo.cs
+C:\Users\mikel\Desktop\School\Distributed\SynopticHomeAssignment\CommonClasses\obj\Debug\net6.0\CommonClasses.csproj.CoreCompileInputs.cache
+C:\Users\mikel\Desktop\School\Distributed\SynopticHomeAssignment\CommonClasses\obj\Debug\net6.0\CommonClasses.dll
+C:\Users\mikel\Desktop\School\Distributed\SynopticHomeAssignment\CommonClasses\obj\Debug\net6.0\refint\CommonClasses.dll
+C:\Users\mikel\Desktop\School\Distributed\SynopticHomeAssignment\CommonClasses\obj\Debug\net6.0\CommonClasses.pdb
+C:\Users\mikel\Desktop\School\Distributed\SynopticHomeAssignment\CommonClasses\obj\Debug\net6.0\ref\CommonClasses.dll

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "iEPVKwDFR8tkCVIMJoZj6bPAL5VdQxqzEEjBw+UHI4Q=",
+  "Source": "FlightsFetchService",
+  "BasePath": "_content/FlightsFetchService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

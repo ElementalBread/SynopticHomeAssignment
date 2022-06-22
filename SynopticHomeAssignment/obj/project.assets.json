@@ -71,6 +71,40 @@
           "Microsoft.AspNetCore.App"
         ]
       },
+      "BookingsFetchService/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "CommonClasses": "1.0.0",
+          "Swashbuckle.AspNetCore": "6.2.3"
+        },
+        "compile": {
+          "bin/placeholder/BookingsFetchService.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BookingsFetchService.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "CarRentalFetchService/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "CommonClasses": "1.0.0",
+          "Swashbuckle.AspNetCore": "6.2.3"
+        },
+        "compile": {
+          "bin/placeholder/CarRentalFetchService.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CarRentalFetchService.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "CommonClasses/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -226,6 +260,16 @@
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
     },
+    "BookingsFetchService/1.0.0": {
+      "type": "project",
+      "path": "../BookingsFetchService/BookingsFetchService.csproj",
+      "msbuildProject": "../BookingsFetchService/BookingsFetchService.csproj"
+    },
+    "CarRentalFetchService/1.0.0": {
+      "type": "project",
+      "path": "../CarRentalFetchService/CarRentalFetchService.csproj",
+      "msbuildProject": "../CarRentalFetchService/CarRentalFetchService.csproj"
+    },
     "CommonClasses/1.0.0": {
       "type": "project",
       "path": "../CommonClasses/CommonClasses.csproj",
@@ -239,6 +283,8 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "BookingsFetchService >= 1.0.0",
+      "CarRentalFetchService >= 1.0.0",
       "CommonClasses >= 1.0.0",
       "FlightsFetchService >= 1.0.0"
     ]
@@ -270,6 +316,12 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "C:\\Users\\mikel\\Desktop\\School\\Distributed\\SynopticHomeAssignment\\BookingsFetchService\\BookingsFetchService.csproj": {
+              "projectPath": "C:\\Users\\mikel\\Desktop\\School\\Distributed\\SynopticHomeAssignment\\BookingsFetchService\\BookingsFetchService.csproj"
+            },
+            "C:\\Users\\mikel\\Desktop\\School\\Distributed\\SynopticHomeAssignment\\CarRentalFetchService\\CarRentalFetchService.csproj": {
+              "projectPath": "C:\\Users\\mikel\\Desktop\\School\\Distributed\\SynopticHomeAssignment\\CarRentalFetchService\\CarRentalFetchService.csproj"
+            },
             "C:\\Users\\mikel\\Desktop\\School\\Distributed\\SynopticHomeAssignment\\CommonClasses\\CommonClasses.csproj": {
               "projectPath": "C:\\Users\\mikel\\Desktop\\School\\Distributed\\SynopticHomeAssignment\\CommonClasses\\CommonClasses.csproj"
             },

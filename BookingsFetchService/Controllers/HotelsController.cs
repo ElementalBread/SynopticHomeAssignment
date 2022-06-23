@@ -79,7 +79,7 @@ namespace HotelsFetchService.Controllers {
             //    }
             //    i++;
             //}
-            return JsonConvert.SerializeObject(bookings); ;
+            return response; ;
         }
     }
     

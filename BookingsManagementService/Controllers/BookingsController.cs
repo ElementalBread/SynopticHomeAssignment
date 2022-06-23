@@ -51,5 +51,19 @@ namespace BookingsManagementService.Controllers {
             };
             await docRef.SetAsync(bookingObj);
         }
+
+        [HttpPost("~/addBookingDemo/")]
+        public async Task addBookingDemo([FromBody] Booking booking) {
+            DocumentReference docRef = db.Collection("bookings").Document(booking.Id.ToString());
+            Dictionary<string, object> bookingObj = new Dictionary<string, object> {
+                { "accomodation", JsonConvert.SerializeObject(new Accommodation("Hotel","Address",5,"hotel@example.com","This is a review","Suite",5,5,5))},
+                { "carRental", JsonConvert.SerializeObject(new CarRental("vauxhaull", "corsa","city",5,250f)) },
+                { "flight", JsonConvert.SerializeObject(new Flight(1,"Lufthansa",120,"Malta International Airport", "Milan", "economy",233.05f)) },
+
+                { "totalPrice", booking.total_price },
+                { "userEmail", booking.email },
+            };
+            await docRef.SetAsync(bookingObj);
+        }
     }
 }

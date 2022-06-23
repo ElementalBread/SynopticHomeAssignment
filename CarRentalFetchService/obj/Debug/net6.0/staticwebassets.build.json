@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "0MSBrAPnR7FiaUNPLPbkZri2EDaiUTXweXQ4xyE3/Po=",
+  "Source": "CarRentalFetchService",
+  "BasePath": "_content/CarRentalFetchService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

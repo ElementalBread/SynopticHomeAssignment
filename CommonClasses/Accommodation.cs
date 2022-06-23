@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace CommonClasses {
     public class Accommodation {
         public Accommodation(string accommodation_Name, string address, int star_rating, string contact_info, string review, string room_type, int num_of_people, float rate, float total_accomodation_price) {
-            this.accommodation_Id = new Guid();
+            this.accommodation_Id = Guid.NewGuid();
             this.accommodation_Name = accommodation_Name;
             this.address = address;
             this.star_rating = star_rating;

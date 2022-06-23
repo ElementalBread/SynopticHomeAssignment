@@ -27,8 +27,6 @@ namespace FlightsFetchService.Controllers {
         //}
 
 
-
-
         [HttpGet("~/getFlightsJson/{origin}/{destination}/{departureDate}/{seatClass}")]
         public async Task<string> GetJson(string origin, string destination, string departureDate, string seatClass) {
             var client = new HttpClient();

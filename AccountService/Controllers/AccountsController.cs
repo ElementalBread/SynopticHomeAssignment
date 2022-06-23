@@ -25,7 +25,6 @@ namespace AccountService.Controllers {
             await docRef.SetAsync(user);
         }
 
-
         [HttpGet("~/login/{email}/{password}")]
         public async Task<bool> login(string email, string password) {
             CollectionReference usersRef = db.Collection("users");

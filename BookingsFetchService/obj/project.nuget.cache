@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EmCn0CiHohC8RNn528JnsxAhGLHR4ZTXyoyCOqd/9atoiO/Q/3gKNaihYIGEOtiEHOg4nwiVscHM15epYhY6zw==",
+  "dgSpecHash": "YtGE/MJmjwnFZcfpsEjOVoy8s71xPaeKJy8V3Y/bVINzqH/MKofEHMHBLeAK8ZKlWEQvSibrikzJ/UiCy5ozPA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mikel\\Desktop\\School\\Distributed\\SynopticHomeAssignment\\BookingsFetchService\\BookingsFetchService.csproj",
+  "projectFilePath": "C:\\Users\\mikel\\Desktop\\School\\Distributed\\SynopticHomeAssignment\\BookingsFetchService\\HotelsFetchService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mikel\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\mikel\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

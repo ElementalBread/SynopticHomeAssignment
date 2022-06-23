@@ -266,9 +266,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mikel\\Desktop\\School\\Distributed\\SynopticHomeAssignment\\BookingsFetchService\\BookingsFetchService.csproj",
-      "projectName": "BookingsFetchService",
-      "projectPath": "C:\\Users\\mikel\\Desktop\\School\\Distributed\\SynopticHomeAssignment\\BookingsFetchService\\BookingsFetchService.csproj",
+      "projectUniqueName": "C:\\Users\\mikel\\Desktop\\School\\Distributed\\SynopticHomeAssignment\\BookingsFetchService\\HotelsFetchService.csproj",
+      "projectName": "HotelsFetchService",
+      "projectPath": "C:\\Users\\mikel\\Desktop\\School\\Distributed\\SynopticHomeAssignment\\BookingsFetchService\\HotelsFetchService.csproj",
       "packagesPath": "C:\\Users\\mikel\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\mikel\\Desktop\\School\\Distributed\\SynopticHomeAssignment\\BookingsFetchService\\obj\\",
       "projectStyle": "PackageReference",

@@ -9,7 +9,7 @@
     }
   },
   "profiles": {
-    "BookingsFetchService": {
+    "HotelsFetchService": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,

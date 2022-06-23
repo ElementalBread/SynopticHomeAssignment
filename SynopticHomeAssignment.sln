@@ -9,11 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlightsFetchService", "Flig
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommonClasses", "CommonClasses\CommonClasses.csproj", "{D071C328-4197-40EE-85DB-5E725019928C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookingsFetchService", "BookingsFetchService\BookingsFetchService.csproj", "{8A46AF1A-98F6-4E05-8256-001C239C5B26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HotelsFetchService", "BookingsFetchService\HotelsFetchService.csproj", "{8A46AF1A-98F6-4E05-8256-001C239C5B26}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarRentalFetchService", "CarRentalFetchService\CarRentalFetchService.csproj", "{02BDED17-DE40-4DB2-8F0E-281A8F29C0EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountService", "AccountService\AccountService.csproj", "{C8180750-8253-48B6-B969-391BD769C1FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccountService", "AccountService\AccountService.csproj", "{C8180750-8253-48B6-B969-391BD769C1FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingsManagementService", "BookingsManagementService\BookingsManagementService.csproj", "{72D84C36-1509-451E-95E1-972B88320C7E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{C8180750-8253-48B6-B969-391BD769C1FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8180750-8253-48B6-B969-391BD769C1FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8180750-8253-48B6-B969-391BD769C1FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72D84C36-1509-451E-95E1-972B88320C7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72D84C36-1509-451E-95E1-972B88320C7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72D84C36-1509-451E-95E1-972B88320C7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72D84C36-1509-451E-95E1-972B88320C7E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

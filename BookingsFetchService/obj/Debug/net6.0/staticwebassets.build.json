@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "a/SJtzmYTWucmOsDSEfMhuDdmvClKo4QtcWMWOleAgw=",
+  "Source": "BookingsFetchService",
+  "BasePath": "_content/BookingsFetchService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -7,7 +7,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Google.Cloud.Firestore" Version="3.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AccountService\AccountService.csproj" />
+    <ProjectReference Include="..\BookingsFetchService\HotelsFetchService.csproj" />
+    <ProjectReference Include="..\CarRentalFetchService\CarRentalFetchService.csproj" />
+    <ProjectReference Include="..\CommonClasses\CommonClasses.csproj" />
+    <ProjectReference Include="..\FlightsFetchService\FlightsFetchService.csproj" />
   </ItemGroup>
 
 </Project>

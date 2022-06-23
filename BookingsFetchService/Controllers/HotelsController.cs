@@ -6,11 +6,10 @@ using Newtonsoft.Json.Linq;
 namespace HotelsFetchService.Controllers {
     [ApiController]
     [Route("[controller]")]
-    public class BookingsController : Controller {
-        private readonly ILogger<BookingsController> _logger;
+    public class HotelsController : Controller {
+        private readonly ILogger<HotelsController> _logger;
 
-
-        public BookingsController(ILogger<BookingsController> logger) {
+        public HotelsController(ILogger<HotelsController> logger) {
             _logger = logger;
         }
 
@@ -37,18 +36,14 @@ namespace HotelsFetchService.Controllers {
 
             JObject returnJson = JsonConvert.DeserializeObject<JObject>(response);
             //JArray available = (JArray)returnJson["search_results"];
-           
             //Console.WriteLine(results.Count);
-
 
             List<Booking> bookings = new List<Booking>();
             int i = 0;
             foreach(var booking in bookings) {
-               
                 //try {
                 //    String carName = (string)returnJson["search_results"][i]["vehicle_info"]["v_name"];
                 //    string[] car_split = carName.Split();
-
                 //    string make = car_split[0];
                 //    string model = car_split[1];
                 //    string car_type = (string)returnJson["search_results"][i]["vehicle_info"]["group"];

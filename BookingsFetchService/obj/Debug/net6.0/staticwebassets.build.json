@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "a/SJtzmYTWucmOsDSEfMhuDdmvClKo4QtcWMWOleAgw=",
-  "Source": "BookingsFetchService",
-  "BasePath": "_content/BookingsFetchService",
+  "Hash": "2+Mv8CHGF6Olz1OEeoTDDNr10P8EoAjHHLWRvGTY7PM=",
+  "Source": "HotelsFetchService",
+  "BasePath": "_content/HotelsFetchService",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

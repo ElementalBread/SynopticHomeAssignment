@@ -22,15 +22,6 @@
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {}
         }
       },
-      "Newtonsoft.Json/13.0.1": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
-        }
-      },
       "Swashbuckle.AspNetCore/6.2.3": {
         "type": "package",
         "dependencies": {
@@ -81,16 +72,6 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
-      },
-      "CommonClasses/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/CommonClasses.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/CommonClasses.dll": {}
-        }
       }
     }
   },
@@ -137,33 +118,6 @@
         "lib/netstandard2.0/Microsoft.OpenApi.xml",
         "microsoft.openapi.1.2.3.nupkg.sha512",
         "microsoft.openapi.nuspec"
-      ]
-    },
-    "Newtonsoft.Json/13.0.1": {
-      "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
-      "type": "package",
-      "path": "newtonsoft.json/13.0.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.md",
-        "lib/net20/Newtonsoft.Json.dll",
-        "lib/net20/Newtonsoft.Json.xml",
-        "lib/net35/Newtonsoft.Json.dll",
-        "lib/net35/Newtonsoft.Json.xml",
-        "lib/net40/Newtonsoft.Json.dll",
-        "lib/net40/Newtonsoft.Json.xml",
-        "lib/net45/Newtonsoft.Json.dll",
-        "lib/net45/Newtonsoft.Json.xml",
-        "lib/netstandard1.0/Newtonsoft.Json.dll",
-        "lib/netstandard1.0/Newtonsoft.Json.xml",
-        "lib/netstandard1.3/Newtonsoft.Json.dll",
-        "lib/netstandard1.3/Newtonsoft.Json.xml",
-        "lib/netstandard2.0/Newtonsoft.Json.dll",
-        "lib/netstandard2.0/Newtonsoft.Json.xml",
-        "newtonsoft.json.13.0.1.nupkg.sha512",
-        "newtonsoft.json.nuspec",
-        "packageIcon.png"
       ]
     },
     "Swashbuckle.AspNetCore/6.2.3": {
@@ -246,17 +200,10 @@
         "swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
-    },
-    "CommonClasses/1.0.0": {
-      "type": "project",
-      "path": "../CommonClasses/CommonClasses.csproj",
-      "msbuildProject": "../CommonClasses/CommonClasses.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "CommonClasses >= 1.0.0",
-      "Newtonsoft.Json >= 13.0.1",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -266,11 +213,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mikel\\Desktop\\School\\Distributed\\SynopticHomeAssignment\\BookingsFetchService\\BookingsFetchService.csproj",
-      "projectName": "BookingsFetchService",
-      "projectPath": "C:\\Users\\mikel\\Desktop\\School\\Distributed\\SynopticHomeAssignment\\BookingsFetchService\\BookingsFetchService.csproj",
+      "projectUniqueName": "C:\\Users\\mikel\\Desktop\\School\\Distributed\\SynopticHomeAssignment\\AccountService\\AccountService.csproj",
+      "projectName": "AccountService",
+      "projectPath": "C:\\Users\\mikel\\Desktop\\School\\Distributed\\SynopticHomeAssignment\\AccountService\\AccountService.csproj",
       "packagesPath": "C:\\Users\\mikel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mikel\\Desktop\\School\\Distributed\\SynopticHomeAssignment\\BookingsFetchService\\obj\\",
+      "outputPath": "C:\\Users\\mikel\\Desktop\\School\\Distributed\\SynopticHomeAssignment\\AccountService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mikel\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -286,11 +233,7 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {
-            "C:\\Users\\mikel\\Desktop\\School\\Distributed\\SynopticHomeAssignment\\CommonClasses\\CommonClasses.csproj": {
-              "projectPath": "C:\\Users\\mikel\\Desktop\\School\\Distributed\\SynopticHomeAssignment\\CommonClasses\\CommonClasses.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -303,10 +246,6 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
-          "Newtonsoft.Json": {
-            "target": "Package",
-            "version": "[13.0.1, )"
-          },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[6.2.3, )"

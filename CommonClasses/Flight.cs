@@ -7,8 +7,7 @@ using System.Threading.Tasks;
 namespace CommonClasses {
     public class Flight {
         public  Flight(int flight_Number, string airline, int duration, string origin_airport_name, string destination_airport_name, string seat_class, float price) {
-            Guid g = Guid.NewGuid();
-            this.flight_Id = g;
+            this.flight_Id = Guid.NewGuid();
             this.flight_Number = flight_Number;
             this.airline = airline;
             this.duration = duration;

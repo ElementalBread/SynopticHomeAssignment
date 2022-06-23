@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace CommonClasses {
     public class CarRental {
         public CarRental(string make, string model, string car_type, int passengers, float price) {
-            this.car_rental_id = new Guid();
+            this.car_rental_id = Guid.NewGuid();
             this.make = make;
             this.model = model;
             this.car_type = car_type;

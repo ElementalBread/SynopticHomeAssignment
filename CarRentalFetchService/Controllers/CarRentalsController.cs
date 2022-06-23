@@ -38,7 +38,6 @@ namespace CarRentalFetchService.Controllers {
             JObject returnJson = JsonConvert.DeserializeObject<JObject>(response);
             JArray rentalCars = (JArray)returnJson["search_results"];
            
-
             //Console.WriteLine(results.Count);
 
 

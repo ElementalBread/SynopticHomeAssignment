@@ -44,7 +44,7 @@ namespace CarRentalFetchService.Controllers {
             List<CarRental> carRentals = new List<CarRental>();
             int i = 0;
             foreach(var rentalCar in rentalCars) {
-                i++;
+               
                 try {
                     String carName = (string)returnJson["search_results"][i]["vehicle_info"]["v_name"];
                     string[] car_split = carName.Split();
@@ -59,6 +59,7 @@ namespace CarRentalFetchService.Controllers {
                 } catch (Exception e) {
                     Console.WriteLine(e.Message);
                 }
+                i++;
             }
             return JsonConvert.SerializeObject(carRentals); ;
         }
